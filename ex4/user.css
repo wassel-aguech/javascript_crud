@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+   
+}
+.logo{
+    width: 50px;
+}
+
+table{
+    width: 65% !important;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+}
+h1{
+    color: crimson;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px yellow;
+    letter-spacing: 10px;
+}
+
+
+.titre{
+    background-color: gray;
+    text-align: center;
+border-radius: 10px;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid crimson;
+    border-top: 1px solid crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table td{
+    color: black;
+    transition: 0.5s;
+}
+table td:hover{
+    background-color: red;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    text-decoration: underline;
+}

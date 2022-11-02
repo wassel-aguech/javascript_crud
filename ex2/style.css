@@ -1,0 +1,65 @@
+
+body{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.titre{
+    color: white;
+}
+marquee{
+    color: white;
+}
+
+input{
+    width: 40px;
+    height: 30px;
+    padding: 20px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    transform: scale(1.2);
+
+}
+
+
+.somme{
+    color: white;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+button:hover{
+    letter-spacing: 5px;
+    text-decoration: wavy;
+    background-color: yellow;
+    border: 5px solid orangered;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+.affiche{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid green;
+}
